@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css project</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<style>
+  .tooltip{
+    position: relative;
+  }
+  .tooltip .tooltip-text{
+    visibility: hidden;
+    width:150px;
+    background-color: #1f69d8;
+    padding: 10px;
+    width: 300px;
+    color: rgb(255, 250, 250);
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    z-index: 1;
+
+  }
+  .tooltip:hover .tooltip-text{
+    visibility: visible;
+  }
+  .tooltip{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+  }
+  .tolltip-style{
+    text-align: center;
+  }
+
+</style>
+</head>
+<body>
+ <div class="tolltip-style">
+  <a href="#" class="tooltip">
+    Facebook
+    <span class="tooltip-text">Facebook Is a socail media</span>
+  </a>
+  <a href="#" class="tooltip">
+    YouTube
+    <span class="tooltip-text">YouTube Is a video sharing media</span>
+  </a>
+  <a href="#" class="tooltip">
+    LinkedIn
+    <span class="tooltip-text">LinkedIn Best your Business helpfull </span>
+  </a>
+  <br/>
+ </div>
+
+</body>
+</html>
